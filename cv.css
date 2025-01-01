@@ -1,240 +1,480 @@
-@import url('https://fonts.cdnfonts.com/css/santor');
+@import url("https://fonts.cdnfonts.com/css/santor");
+@import url("https://fonts.cdnfonts.com/css/high-spirited");
 
+@import "motif.css";
 
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+html {
+  overflow: auto;
+  scrollbar-gutter: stable;
+  scrollbar-width: none;
 }
 
 body {
-    font-family: 'Santor', sans-serif;
-    background-color: #f4f4f4;
-    line-height: 1.6;
+  font-family: "Santor", sans-serif;
+  /* background-color: #f4f4f4; */
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .logo {
-    width: auto;
-    height: 50px;
-    position: relative;
-
+  width: auto;
+  height: 70px;
+  position: relative;
 }
-
-.section {
-    padding: 100px 0;
-}
-
-.box {
-    max-width: 1280px;
-    margin-inline: auto;
-
-}
-
 h2 {
-    text-align: center;
-    font-family: 'High Spirited', sans-serif;
-    font-size: 50px;
-    font-weight: 100;
+  text-align: center;
+  font-family: "High Spirited", sans-serif;
+  font-size: 70px;
+  font-weight: 200;
+  margin-bottom: 30px;
+  color: #000000;
 }
 
 nav {
-    background: white;
-    color: black;
-    padding: 20px 0;
-    text-align: center;
+  background: white;
+  color: black;
+  text-align: center;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 10px;
+  display: inline;
+  margin: 0 10px;
+  padding: 20px;
 }
 
 nav ul a {
-    color: black;
-    text-decoration: none;
-    text-underline-offset: 2px;
-}
-
-nav ul a:hover li {
-    text-decoration: underline;
+  color: black;
+  text-decoration: none;
+  text-underline-offset: 2px;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 10px;
 }
 
 section {
-    padding: 20px;
-    margin: 20px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-    color: #000000;
+  padding: 50px;
+  margin: 20px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
-    text-align: center;
-
+  text-align: center;
 }
 
-#index  section {
-    display: flex;
-    align-items: start;
+#index section {
+  flex-grow: 1;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .container {
-    margin: 20px;
-    width: 745px;
-    height: 1102px;
-    background-color: #E9CCF1;
-    display: flex;
-    justify-content: flex-end;
-    position: relative;
-
-
+  width: 50%;
+  align-self: stretch;
+  background-color: #e9ccf1;
 }
 
 .carte {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    justify-content: space-between;
-
-    max-width: 100%;
-    width: 536px;
-    height: 800px;
-    max-height: 100%;
-    background-color: #F4E5F8;
-    display: flex;
-    box-shadow: 10px 5px 5px grey;
-    float: right;
-    position: absolute;
-    top: 150px;
-    right: -100px;
-
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  width: 900px;
+  height: 80%;
+  background-color: #f4e5f8;
+  display: flex;
+  box-shadow: 5px 5px 5px grey;
+  position: relative;
+  left: -10%;
 }
 
 .photo {
-    display: flex;
-    justify-content: space-around;
-    width: 200px;
-
-    height: 200px;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 15px;
-
+  width: 90%;
+  max-width: 250px;
+  height: auto;
+  border-radius: 50%;
+  margin: 30px auto;
 }
 
 .nomprenom {
-    text-align: center;
-    /* flex: 1; */
+  font-size: 25px;
+  text-align: center;
+  /* flex: 1; */
+}
+
+.Etudiante {
+  font-size: 25px;
+  text-align: center;
 }
 
 .social {
-    padding: 16px 0;
-    background: #FFF;
-    width: 100%;
-    text-align: center;
+  padding: 16px 0;
+  background: #fff;
+  width: 100%;
+  text-align: center;
 }
 
 .social img {
-    width: 24px;
+  width: 24px;
 }
 
 .container-form {
-    display: flex;
-    height: calc(100vh - 100px);
-    align-items: center;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
 }
 
 .contact-form {
-
-    margin: auto;
-    background: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 400px;
+  /* //margin: auto; */
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
 }
 
 .contact-form h2 {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .contact-form .form-group {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .contact-form .form-group label {
-    display: block;
-    margin-bottom: 5px;
+  display: block;
+  margin-bottom: 5px;
 }
 
 .contact-form .form-group input,
 .contact-form .form-group textarea {
-    width: 100%;
-    padding: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+  width: 100%;
+  padding: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .contact-form .form-group textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 .contact-form button {
-    background: #F4E5F8;
-    color: #000000;
-    font-family: 'Santor', sans-serif;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+  background: #f4e5f8;
+  color: #000000;
+  font-family: "Santor", sans-serif;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .contact-form button:hover {
-    background: #E9CCF1;
+  background: #e9ccf1;
 }
 
 .presentation {
-    /* margin-top: auto; */
-    margin: auto;
-    padding: 100px;
-    margin-right: 20px;
-    text-align: center;
+  font-size: 24px;
+
+  text-align: center;
 }
-p {
-    margin-bottom: 20px;
+.description {
+  margin-bottom: 20px;
 }
 
 .backgroundmap {
-    height: 600px; 
-    margin-top: 50px;
-    margin: 50px;
-    
-} 
+  height: 600px;
+  margin-top: 50px;
+  margin: 50px;
+}
 
 div:has(.backgroundmap) {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 h3 {
-    text-align: center;
-    
+  text-align: center;
 }
 
 a {
-    color: #000000;
+  color: #000000;
+  text-decoration: none;
+}
+
+.coordonnees {
+  /* //margin: auto; */
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  justify-content: space-between;
+}
+
+.coordonnees-group {
+  text-align: center;
+}
+
+li a:hover {
+  background-color: #f4e5f8;
+  border-radius: 5px;
+}
+
+li:has(img) a:hover {
+  background-color: transparent;
+}
+
+.titreCV {
+  font-size: 75px;
+  text-align: start;
+  font-style: bold;
+}
+
+.nomEntreprise {
+  font-size: 25px;
+  font-style: bold;
+  text-align: start;
+}
+
+.nomPoste {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.periode {
+  text-align: end;
+}
+
+.blocCv {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.blocCv .entete {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.titreCV {
+  max-width: 1200px;
+  margin: auto;
+}
+.containerCv {
+  /* margin-right: 300px; */
+  max-width: 1200px;
+  margin: auto;
+}
+
+section:has(.containerCv) {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.blocCv ul {
+  margin-left: 20px;
+}
+
+.nomEcole {
+  font-size: 25px;
+  font-style: bold;
+  text-align: start;
+}
+
+.inline-box {
+  display: flex;
+  align-items: start;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+footer {
+  text-align: center;
+  font-size: 1rem;
+  padding: 20px;
+  /* margin-top: ; */
+  margin: 0 20px 20px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.footerContact {
+  text-align: center;
+  font-size: 1rem;
+  padding: 20px;
+  /* margin-top: ; */
+  margin: 0 20px 20px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.photoCV {
+  width: 90%;
+  display: block;
+  align-items: center;
+  max-width: 250px;
+  height: auto;
+  border-radius: 50%;
+  margin: 30px auto;
+}
+
+.contact {
+  text-align: center;
+}
+
+.portfolio {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.grid-gallery {
+  width: 100%;
+  max-width: 1220px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grid-gallery .grid {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.grid-gallery .grid-item {
+  width: 33.33%;
+  padding: 10px;
+}
+
+.grid-gallery .grid-item .grid-link {
+  display: block;
+  padding: 13px 13px 0 13px;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.grid-gallery .grid-item .grid-img {
+  display: block;
+  width: 100%;
+}
+
+.grid-gallery .grid-item .grid_item-title {
+  position: relative;
+  margin: 0;
+  padding: 22px 10px;
+  color: black;
+  background-color: #ffffff;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.title {
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 500px;
+  padding-right: 400px;
+}
+
+.menu-btn {
+  display: none; /* Caché par défaut */
+}
+
+@media (max-width: 576px) {
+  .grid-gallery .grid-item {
+    width: 100%;
+  }
+  .title {
+    font-size: 40px;
+  }
+  /*section {
+    width: 100%;
+  }*/
+  .presentation {
+    padding: 2%;
+    margin-left: -104px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  body {
+    width: 90%;
+  }
+  .menu-btn {
+    display: block;
+  }
+  .nav-menu {
+    display: none;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  body {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .grid-gallery .grid-item {
+    width: 50%;
+  }
+  .title {
+    font-size: 60px;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  body {
+    width: 100%;
+  }
+  .presentation {
+    padding: 100px;
+    margin-left: -170px;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+  body {
+    width: 100%;
+  }
+  .presentation {
+    padding: 100px;
+    margin-left: -170px;
+  }
+}
+@media (min-width: 1401px) {
+  body {
+    width: 100%;
+  }
+  .presentation {
+    padding: 100px;
+    margin-left: -170px;
+  }
 }

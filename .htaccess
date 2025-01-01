@@ -1,1 +1,1 @@
-ErrorDocument [404] [nom du fichier ou texte ou url]
+ErrorDocument 404 http://10.56.8.62/archi/devoir%20CV/error.html

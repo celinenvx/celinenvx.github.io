@@ -1,0 +1,241 @@
+@import url('https://fonts.cdnfonts.com/css/santor');
+@import url('https://fonts.cdnfonts.com/css/high-spirited');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Santor', sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+.logo {
+    width: auto;
+    height: 50px;
+    position: relative;
+
+}
+
+.section {
+    padding: 100px 0;
+}
+
+.box {
+    max-width: 1280px;
+    margin-inline: auto;
+
+}
+
+h2 {
+    text-align: center;
+    font-family: 'High Spirited', sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+nav {
+    background: white;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul a {
+    color: black;
+    text-decoration: none;
+    text-underline-offset: 2px;
+}
+
+nav ul a:hover li {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #000000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+#index  section {
+    display: flex;
+    align-items: start;
+}
+
+.container {
+    margin: 20px;
+    width: 745px;
+    height: 1102px;
+    background-color: #E9CCF1;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+
+
+}
+
+.carte {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 100%;
+    width: 536px;
+    height: 800px;
+    max-height: 100%;
+    background-color: #F4E5F8;
+    display: flex;
+    box-shadow: 10px 5px 5px grey;
+    float: right;
+    position: absolute;
+    top: 150px;
+    right: -100px;
+
+}
+
+.photo {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+
+    height: 200px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+
+}
+
+.nomprenom {
+    text-align: center;
+    /* flex: 1; */
+}
+
+.social {
+    padding: 16px 0;
+    background: #FFF;
+    width: 100%;
+    text-align: center;
+}
+
+.social img {
+    width: 24px;
+}
+
+.container-form {
+    display: flex;
+    height: calc(100vh - 100px);
+    align-items: center;
+}
+
+.contact-form {
+
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.contact-form h2 {
+    margin-bottom: 15px;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+    width: 100%;
+    padding: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form .form-group textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background: #F4E5F8;
+    color: #000000;
+    font-family: 'Santor', sans-serif;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #E9CCF1;
+}
+
+.presentation {
+    /* margin-top: auto; */
+    margin: auto;
+    padding: 100px;
+    margin-right: 20px;
+    text-align: center;
+}
+p {
+    margin-bottom: 20px;
+}
+
+.backgroundmap {
+    height: 600px; 
+    margin-top: 50px;
+    margin: 50px;
+    
+} 
+
+div:has(.backgroundmap) {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    text-align: center;
+    
+}
+
+a {
+    color: #000000;
+}

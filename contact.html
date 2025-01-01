@@ -1,40 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-    <link rel="stylesheet" href="cv.css">
-</head>
-<body>
-    <nav>
+    <link rel="stylesheet" href="cv.css" />
+  </head>
+  <body id="contact">
+    <header>
+      <nav>
         <ul>
-            <a href="index.html"><li>Accueil</li></a>
-           <a href="cv.html"> <li>CV</li></a>
-            <a href="index.html"><li><img src="logos/logo site web.png" class="logo"></li></a>
-            <a href="portfolio.html"><li>Portfolio</li></a>
-            <a href="contact.html"><li>Contact</li></a>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li>
+            <a href="index.html"
+              ><img src="logos/logo site web.png" class="logo"
+            /></a>
+          </li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
-    </nav>
+      </nav>
+    </header>
     <div class="container-form">
-        <div class="contact-form">
-            <h2>Contactez-moi</h2>
-            <form action="">
-                <div class="form-group">
-                    <label for="name">Nom</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-                <button type="submit">Envoyer</button>
-            </form>
-        </div>
+      <div class="contact-form">
+        <h2>Contactez-moi</h2>
+        <form action="">
+          <div class="form-group">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Envoyer</button>
+        </form>
+      </div>
+      <div class="coordonnees">
+        <h2>Mes coordonnées</h2>
+        <form action="">
+          <div class="coordonnees-group">
+            <p>Téléphone : 06 69 28 98 75</p>
+            Localisation : Ardennes (08)
+            <div class="social">
+              <a
+                href="https://www.linkedin.com/in/celine-naviaux/"
+                target="_blank"
+              >
+                <img src="element/linkedin.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </form>
+      </div>
     </div>
-</body>
+    <footer class="footerContact">
+      <p>
+        &copy; Céline Naviaux • 2024 • Mentions légales • Tous droits réservés
+      </p>
+    </footer>
+  </body>
 </html>
