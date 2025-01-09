@@ -1,6 +1,5 @@
 ErrorDocument 404 http://10.56.8.62/archi/devoir%20CV/error.html
 RewriteEngine On
-RewriteRule ^index.html$ index [L]
-RewriteRule ^cv.html$ cv [L]
-RewriteRule ^$portfolio.html portfolio [L]
-RewriteRule ^contact.html$ contact [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ $1.html [L]
