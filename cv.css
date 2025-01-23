@@ -203,7 +203,9 @@ h1 {
 .description {
   margin-bottom: 20px;
 }
-
+.presentation p {
+  margin-bottom: 40px;
+}
 .backgroundmap {
   height: 600px;
   margin-top: 50px;
