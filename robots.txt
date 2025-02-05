@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /font
+Disallow: /images
+Disallow: /logos
+Disallow: /element
+
+Sitemap: https://celinenvx.github.io/sitemap.xml
