@@ -15,9 +15,7 @@
       content="presentation, communication, reconversion, passion, tourisme, EiSINe, Parc naturel régional Ardennes"
     />
     <link rel="icon" type="logo rond.png" href="logos/SVG/logo-rond.svg" />
-
     <link rel="stylesheet" href="cv.css" />
-
     <!-- Open Graph Meta Tags -->
     <meta property="og:url" content="https://celinenvx.github.io/" />
     <meta property="og:type" content="website" />
@@ -33,142 +31,104 @@
       property="og:image"
       content="https://celinenvx.github.io/logos/SVG/logo-site-web.svg"
     />
-    <!-- Load error, please check URL -->
   </head>
-
-  <main id="index">
-    <header>
-      <nav>
-        <ul>
-          <li><a href="./">Accueil</a></li>
-          <li><a href="cv">CV</a></li>
-          <li>
-            <a href="./"
-              ><img
-                src="logos/SVG/logo-site-web.svg"
-                class="logo"
-                alt="logo site web celine naviaux"
-                title="logo site web celine naviaux"
-            /></a>
-          </li>
-          <li><a href="portfolio">Portfolio</a></li>
-          <li><a href="contact">Contact</a></li>
-        </ul>
-        <button class="menu-btn">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </nav>
-    </header>
-    <section>
-      <div class="container"></div>
-
-      <div class="carte" itemscope itemtype="http://schema.org/Person">
-        <img
-          src="images/photo.jpeg"
-          class="photo"
-          alt="photo celine naviaux"
-          title="photo celine naviaux"
-          itemprop="image"
-        />
-
-        <div class="nomprenom" itemprop="name">
-          Céline <br />
-          NAVIAUX
+  <body>
+    <main id="index">
+      <header>
+        <nav>
+          <div class="menu-btn">
+            <span class="menu-btn__burger"></span>
+          </div>
+          <ul class="nav-links">
+            <li><a href="./">Accueil</a></li>
+            <li><a href="cv">CV</a></li>
+            <li>
+              <a href="./">
+                <img
+                  src="logos/SVG/logo-site-web.svg"
+                  class="logo"
+                  alt="logo site web celine naviaux"
+                  title="logo site web celine naviaux"
+                />
+              </a>
+            </li>
+            <li><a href="portfolio">Portfolio</a></li>
+            <li><a href="contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section>
+        <div class="container"></div>
+        <div class="carte" itemscope itemtype="http://schema.org/Person">
+          <img
+            src="images/photo.jpeg"
+            class="photo"
+            alt="photo celine naviaux"
+            title="photo celine naviaux"
+            itemprop="image"
+          />
+          <div class="nomprenom" itemprop="name">
+            Céline <br />
+            NAVIAUX
+          </div>
+          <hr style="width: 15%; height: 1px; background-color: black" />
+          <div class="Etudiante" itemprop="jobTitle">
+            Étudiante en Graphisme <br />Web design
+          </div>
+          <div class="social">
+            <a
+              href="https://www.linkedin.com/in/celine-naviaux/"
+              target="_blank"
+            >
+              <img
+                src="element/linkedin.png"
+                alt="logo linkedin"
+                title="logo linkedin"
+                itemprop="logo"
+              />
+            </a>
+          </div>
         </div>
-
-        <hr style="width: 15%; height: 1px; background-color: black" />
-        <div class="Etudiante" itemprop="jobTitle">Étudiante en Graphisme <br />Web design</div>
-        <div class="social">
-          <a href="https://www.linkedin.com/in/celine-naviaux/" target="_blank">
-            <img
-              src="element/linkedin.png"
-              alt="logo linkedin"
-              title="logo linkedin"
-              itemprop="logo"
-            />
-          </a>
+        <div
+          class="presentation"
+          itemscope
+          itemtype="http://schema.org/Article"
+        >
+          <h2 itemprop="headline">A propos de moi</h2>
+          <p itemprop="articleBody">
+            Après plus de 10 ans d'expérience dans le domaine administratif,
+            j’ai choisi de me reconvertir en graphiste spécialisée dans le
+            tourisme, une passion que je souhaite transformer en carrière. Mon
+            expérience m’a doté de rigueur et d’organisation, des atouts que
+            j’applique dans cette transition.<br />
+          </p>
+          <p itemprop="articleBody">
+            Actuellement en Licence Professionnelle Conception, Rédaction et
+            Réalisation Web à l’École d’Ingénieurs de Charleville-Mézières, j’y
+            développe des compétences en design graphique, rédaction web et
+            gestion de projets numériques.<br />
+          </p>
+          <p itemprop="articleBody">
+            En alternance au Parc naturel régional des Ardennes, je crée des
+            supports de communication pour valoriser la région : affiches,
+            brochures et contenus numériques. Cette expérience me permet
+            d’allier créativité et tourisme en contribuant à la promotion du
+            territoire.<br />
+          </p>
+          <p itemprop="articleBody">
+            Mon objectif : concevoir des visuels percutants qui captivent et
+            inspirent les visiteurs, faisant de ma passion un véritable moteur
+            professionnel.<br />
+          </p>
         </div>
-      </div>
-      <div class="presentation" itemscope itemtype="http://schema.org/Article">
-        <h2 itemprop="headline">A propos de moi</h2>
-        <!-- <p>
-          Après plus de 10 ans d'expérience dans le domaine administratif, j'ai
-          décidé de me lancer dans une reconversion professionnelle pour devenir
-          graphiste spécialisée dans le secteur du tourisme. Cette décision est
-          motivée par ma passion pour la création de supports de communication
-          visuelle, tels que des brochures, des affiches, et des contenus
-          numériques, que je souhaite transformer en une carrière épanouissante.
-          Mon parcours dans l'administratif m'a permis de développer des
-          compétences organisationnelles et une rigueur professionnelle que je
-          compte bien mettre à profit dans ma nouvelle carrière.<br />
-        </p>
-        <p>
-          Actuellement, je poursuis une Licence Professionnelle en Conception,
-          Rédaction et Réalisation Web à l'École d'Ingénieurs en Sciences
-          Industrielles et Numérique de Charleville-Mézières. Cette formation me
-          permet d'acquérir des compétences techniques et créatives essentielles
-          pour le métier de graphiste. Les cours couvrent divers aspects de la
-          conception graphique, de la rédaction de contenu web, et de la
-          réalisation de projets numériques, me donnant ainsi une vision globale
-          et approfondie du domaine.<br />
-        </p>
-        <p>
-          En parallèle, je réalise mon alternance au Parc naturel régional des
-          Ardennes, où je mets en pratique mes connaissances en participant à
-          divers projets de communication visuelle. Mon rôle au sein du parc
-          inclut la création de supports promotionnels pour les événements
-          locaux, la conception de brochures informatives pour les visiteurs, et
-          la gestion des contenus visuels pour les réseaux sociaux. Cette
-          expérience en alternance me permet non seulement d'appliquer mes
-          compétences académiques dans un contexte professionnel, mais aussi de
-          contribuer à la valorisation et à la promotion de cette magnifique
-          région.<br />
-        </p>
-        <p>
-          Je suis particulièrement enthousiaste à l'idée de combiner ma passion
-          pour le graphisme avec mon intérêt pour le tourisme. Mon objectif est
-          de créer des visuels attrayants et informatifs qui captivent
-          l'attention des visiteurs et les incitent à découvrir les richesses
-          culturelles et naturelles des Ardennes. En somme, cette reconversion
-          professionnelle représente pour moi une opportunité unique de
-          réinventer ma carrière tout en poursuivant une passion de longue
-          date.<br />
-        </p> -->
-        <p itemprop="articleBody">
-          Après plus de 10 ans d'expérience dans le domaine administratif, j’ai
-          choisi de me reconvertir en graphiste spécialisée dans le tourisme,
-          une passion que je souhaite transformer en carrière. Mon expérience
-          m’a doté de rigueur et d’organisation, des atouts que j’applique dans
-          cette transition.<br />
-        </p>
-        <p itemprop="articleBody">
-          Actuellement en Licence Professionnelle Conception, Rédaction et
-          Réalisation Web à l’École d’Ingénieurs de Charleville-Mézières, j’y
-          développe des compétences en design graphique, rédaction web et
-          gestion de projets numériques.<br />
-        </p>
-        <p itemprop="articleBody">
-          En alternance au Parc naturel régional des Ardennes, je crée des
-          supports de communication pour valoriser la région : affiches,
-          brochures et contenus numériques. Cette expérience me permet d’allier
-          créativité et tourisme en contribuant à la promotion du territoire.<br />
-        </p>
-        <p itemprop="articleBody">
-          Mon objectif : concevoir des visuels percutants qui captivent et
-          inspirent les visiteurs, faisant de ma passion un véritable moteur
-          professionnel.<br />
-        </p>
-      </div>
-    </section>
-  </main>
-
+      </section>
+    </main>
     <footer>
       <p>
-        &copy; Céline Naviaux • 2025 • <a href="#" rel="nofollow">Mentions légales</a> • Tous droits réservés
+        &copy; Céline Naviaux • 2025 •
+        <a href="#" rel="nofollow">Mentions légales</a> • Tous droits réservés
       </p>
-      
     </footer>
+    <script src="cv.js"></script>
   </body>
 </html>

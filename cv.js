@@ -60,3 +60,23 @@ function supprimerCompetence(index) {
 
 document.addEventListener('DOMContentLoaded', afficherCompetences);
 
+document.addEventListener('DOMContentLoaded', () => {
+    const menuBtn = document.querySelector('.menu-btn');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuBtn.addEventListener('click', () => {
+        menuBtn.classList.toggle('open');
+        navLinks.classList.toggle('open');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const menuBtn = document.querySelector('.menu-btn');
+    const navLinks = document.querySelector('.nav-links');
+
+    menuBtn.addEventListener('click', () => {
+        menuBtn.classList.toggle('open');
+        navLinks.classList.toggle('open');
+    });
+});
+

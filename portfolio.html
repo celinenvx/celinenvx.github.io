@@ -12,8 +12,8 @@
       name="keywords"
       content="portfolio, projets, supports communication, competences"
     />
-    <link rel="icon" type="logo rond.png" href="/logos/SVG/logo-rond.svg" />
-    <h1><title>Céline Naviaux - Portfolio</title></h1>
+    <link rel="icon" type="image/png" href="/logos/SVG/logo-rond.svg" />
+    <title>Céline Naviaux - Portfolio</title>
     <link rel="stylesheet" href="cv.css" />
     <!-- Open Graph Meta Tags -->
     <meta property="og:url" content="https://celinenvx.github.io/" />
@@ -30,23 +30,25 @@
       property="og:image"
       content="https://celinenvx.github.io/logos/SVG/logo-site-web.svg"
     />
-    <!-- Load error, please check URL -->
   </head>
-
   <body>
     <header>
       <nav>
-        <ul>
+        <div class="menu-btn">
+          <span class="menu-btn__burger"></span>
+        </div>
+        <ul class="nav-links">
           <li><a href="./">Accueil</a></li>
           <li><a href="cv">CV</a></li>
           <li>
-            <a href="./"
-              ><img
+            <a href="./">
+              <img
                 src="logos/SVG/logo-site-web.svg"
                 class="logo"
                 alt="logo site web celine naviaux"
                 title="logo site web celine naviaux"
-            /></a>
+              />
+            </a>
           </li>
           <li><a href="portfolio">Portfolio</a></li>
           <li><a href="contact">Contact</a></li>
@@ -120,5 +122,6 @@
         <a href="#" rel="nofollow">Mentions légales</a> • Tous droits réservés
       </p>
     </footer>
+    <script src="cv.js"></script>
   </body>
 </html>
