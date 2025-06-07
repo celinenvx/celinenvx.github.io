@@ -7,3 +7,5 @@ Ce projet est un site web personnel comprenant ma présentation un CV, un portfo
 1. Clonez le dépôt :
    ```bash
    git clone https://github.com/celinenvx/celinenvx.github.io
+
+![Image](https://github.com/user-attachments/assets/2a4499c6-3932-44ec-b45e-bf273f0a7c1e)
